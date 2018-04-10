@@ -8,7 +8,11 @@ import './assets/stylesheets/style.css'
 /****** ADD YOUR CODE AFTER THIS LINE ******/
 
 const Hello = () => (
-  <div>Hello World!</div>
+    <marquee direction='up' behavior='alternate' scrollamount='31'>
+      <marquee direction='right' behavior='alternate' scrollamount='19'>
+        <img src='tenor.png'></img>
+      </marquee>
+    </marquee>
 );
 
 class App extends Component {
